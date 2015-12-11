@@ -1,0 +1,21 @@
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+   <% render "details/navbar_header" %>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">    <i class="fa fa-home"></i>主頁<span class="sr-only">(current)</span></a></li>
+        <li><a href="#"><i class="fa fa-bell"></i>通知</a></li>
+        <li><a href="#"><i class="fa fa-newspaper-o"></i>訊息</a></li>
+      </ul>
+     
+      <ul class="nav navbar-nav navbar-right">
+          <%= render "details/navbar_dropdown" %>
+          <li><%= render "details/modal" %></li>
+      </ul>
+           
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>

@@ -1,0 +1,15 @@
+.photo-profile li{
+  display: inline;
+}
+.img-size {
+	height: 100px;
+	width: 100px;
+}
+
+.panel .panel-primary .panel-heading img{
+ vertical-align:middle;/*设置图片垂直居中*/    
+ height:10px;
+ width:10px;/* 非IE6下的等比缩放 */
+ }     // Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
